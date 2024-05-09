@@ -1,0 +1,32 @@
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d9d9d9;
+    margin: 80px 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+}
+.offers-left h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.offers-left p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.offers-left button{
+    background: #333;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.offers-right img{
+    height: 400px;
+}

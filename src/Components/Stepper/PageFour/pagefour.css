@@ -1,0 +1,33 @@
+.pagefour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+.pagefour h1{
+    font-weight: 500;
+    color: #333;
+}
+.pagefour button{
+    height: 45px;
+    width: 150px;
+    font-family: 'Poppins';
+    background: #333;
+    color: #fff;
+    border-style: none;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes grow {
+    0% { height: 0px; } 
+    60% {height: 130px;}
+    100% { height: 100px; } 
+}
+  
+.pagefour img {
+    height: 100px;
+    animation: grow 1s ease-in-out; 
+}

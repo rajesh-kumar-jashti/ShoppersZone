@@ -1,0 +1,76 @@
+.contact-banner{
+    height: 35vh;
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: auto;
+    background-image: url('https://media.istockphoto.com/id/1416335096/photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-and-address.jpg?s=612x612&w=0&k=20&c=ajOYHJPqlaKZ04BeSf5m3MsuZ_YGyxrUqEGMaS1hGGk=');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.contact-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    border-radius: 20px;
+}
+.contact-banner h1{
+    color: #fff;
+    font-size: 38px;
+    z-index: 1;
+    font-weight: 400;
+}
+.contact-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container input{
+    height: 50px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    border-style: none;
+    border: 2px solid #989898;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-container textarea{
+    width: 500px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+    border: 2px solid #989898;
+}
+.contact-container button{
+    height: 50px;
+    margin-top: 30px;
+    width: 500px;
+    background: #333;
+    border-style: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: 'Poppins';
+
+}

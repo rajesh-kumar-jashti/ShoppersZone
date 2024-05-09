@@ -1,0 +1,63 @@
+.shop-category{
+    background: linear-gradient(to right, #b9b9b9, #ffffff);
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 30px;
+    align-items: center;
+    margin: 30px 50px;
+    padding: 0 80px;
+}
+
+.banner-data h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.banner-data button{
+    height: 40px;
+    font-family: Poppins;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background: #333333;
+}
+
+.banner-img img{
+    height: 300px;
+}
+.shop_sub_head h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    padding-left: 100px;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 40px;
+}
+.prod_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.prod_btn button{
+    height: 45px;
+    cursor: pointer;
+    width: 150px;
+    background: #333;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+.popular{
+    margin-top: 30px;
+}

@@ -1,0 +1,31 @@
+.orders-content{
+    display: flex;
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    margin: auto;
+    width: 30%;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.orders-contentt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 20px;
+}
+.orders-content img{
+    height: 100px;
+    padding-right: 20px;
+}
+.orders-value p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+.orders-value span{
+    font-weight: 450;
+    color: #4d4d4d;
+}

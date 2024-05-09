@@ -1,0 +1,27 @@
+
+.item img{
+    height: 300px;
+    border-radius: 10px;
+}
+.item p{
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.item-prices{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+.item-price-new{
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.btnn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btnn button{
+    height: 40px;
+    font-family: Poppins;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background: #333333;
+    cursor: pointer;
+}

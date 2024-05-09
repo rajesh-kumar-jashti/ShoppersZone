@@ -1,0 +1,88 @@
+.about-banner{
+    height: 35vh;
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: auto;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5d8NaACUXbK-9Csv61O4ovCS3TSHhzueog&s');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.about-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+    border-radius: 20px;
+}
+.about-banner h1{
+    color: #fff;
+    font-size: 38px;
+    z-index: 1;
+    font-weight: 400;
+}
+.about-content1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content1 img{
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.about-content1 p{
+    width: 500px;
+    line-height: 1.7rem;
+    color: #606060;
+    text-align: justify;
+}
+.about-content2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content2 img{
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.about-content2 p{
+    width: 500px;
+    line-height: 1.7rem;
+    color: #606060;
+    text-align: justify;
+}
+.team h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+    font-weight: 500;
+}
+.team-members{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.team-member img{
+    border-radius: 10px;
+    height: 250px;
+}
+.team-member h1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.team-member p{
+    text-align: center;
+}

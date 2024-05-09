@@ -1,0 +1,22 @@
+.item-img{
+    background: #B0B0B0;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    position: relative;
+}
+.item-img img{
+    display: flex;
+    bottom: 1px;
+    border-radius: 40%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.item h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    padding-top: 10px;
+}

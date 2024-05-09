@@ -1,0 +1,50 @@
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.but button{
+    height: 40px;
+    width: 150px;
+    background: #333;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pagetwo-button{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-container h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.details-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.details-input input{
+    height: 45px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+}
+.details-input select{
+    width: 400px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 2px solid #b0b0b0;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    color: #636363;
+}
